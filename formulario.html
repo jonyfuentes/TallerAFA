@@ -6,65 +6,68 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/form_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="shortcut icon" href="imagenes/logo_icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagen/Bandera-argentina.jpg">
     <title>Soy Afa- Contacto</title>
     <style>
-        body {
-            background: url(imagen/fondo-afa.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0;
-            height: 100vh;
-        }
+
     </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo/logo-afa.png" id="estrellaLogo" class="d-none d-lg-block">
-                    <img src="imagen/asociacion.jpg" id="nombreLogo">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"> 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="Equipo.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Nuestra música
-                  </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="Equipo.html">En línea</a></li>
-                                <li><a class="dropdown-item" href="Vivo.html">En vivo</a></li>
-                                <li><a class="dropdown-item" href="merchandising.html">En merchandising</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
-                        </li>
-                    </ul>
+<body class="bg-dark">
+    <header id="Encabezado">
+        <nav class=" navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
+            <div class="container container-fluid">
+                <a href="./index.html"><img src="logo/logo-afa.png" id="nombreLogo" class="gap-6"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <ul class="listaNav">
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="formulario.html">Contacto</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="botonesBarraNavegacion dropdown-toggle btn bg-primary mx-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Producto
+                    </a>
+                                <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
+                                </ul>
+                            </li>
+
+                            <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="register.html">Acceder</a>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </nav>
         </div>
-    </nav>
-    <div class="registro">
-        <h4>¡Ponete en contacto con nosotros!</h4> color: rgb(197, 152, 152);
-        <input class="datos-usuario" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-        <input class="datos-usuario" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
-        <input class="datos-usuario" type="tel" name="telefono" id="celular" placeholder="Ingrese su telefono">
-        <input class="datos-usuario" type="email" name="nombre" id="email" placeholder="Ingrese su email">
-        <input class="datos-usuario" type="text" name="comentario" id="comentario" placeholder="Ingrese su comentario">
-        <button class="boton-enviar" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Enviar</button>
-    </div>
-    </form>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="registro">
+                <h4 class="text-light text-center">¡Ponete en contacto con nosotros!</h4>
+                <input class="datos-usuario" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+                <input class="datos-usuario" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+                <input class="datos-usuario" type="tel" name="telefono" id="celular" placeholder="Ingrese su telefono">
+                <input class="datos-usuario" type="email" name="nombre" id="email" placeholder="Ingrese su email">
+                <input class="datos-usuario" type="text" name="comentario" id="comentario" placeholder="Ingrese su comentario">
+                <button class="boton-enviar" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Enviar</button>
+            </div>
+        </form>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 

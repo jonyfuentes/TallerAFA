@@ -1,18 +1,6 @@
-@media only screen and (max-width: 1500px) {
-    #Encabezado {
-        height: 65rem;
-    }
-}
-
-@media only screen and (min-width: 1500px) {
-    #Encabezado {
-        height: 100rem;
-    }
-}
-
 #Encabezado {
     size: 100% 100%;
-    background-image: url(../imagen/fondo-afa.jpg);
+    /* background-image: url(../imagen/fondo-afa.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     position: static;
@@ -21,25 +9,26 @@
 }
 
 #nombreLogo {
-    width: 15%;
-    margin-left: 10%;
+    width: 40%;
+    margin-left: 0%;
     position: static;
     z-index: 2;
 }
 
 #estrellaLogo {
-    width: 10%;
+    width: 40%;
     position: absolute;
     z-index: 1;
 }
 
 .barraNavegacion {
-    background-image: url(../imagen/3lineas_azul.png);
+    height: 30vh;
+    background: repeating-linear-gradient(0deg, lightblue 0%, lightblue 40%, white 0, white 60%, lightblue 0, lightblue);
     position: relative;
     background-color: white;
     border: darkgray solid 2px;
     border-radius: 5px;
-    top: 7%;
+    top: 0;
 }
 
 .botonesBarraNavegacion {
@@ -50,11 +39,14 @@
     text-decoration: none;
     border-right: darkgray solid 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .5s;
 }
 
 .botonesBarraNavegacion:hover {
-    background-color: #F07800;
-    color: darkgray;
+    background-color: darkblue;
+    color: white;
+    transform: scale(1.1);
+    transition: all .5s;
 }
 
 .ultimoBoton {
@@ -74,8 +66,9 @@
     top: 400px;
 }
 
+#mainDestacados {}
+
 .seccionDestacados {
-    background-image: url(../imagen/Bandera-argentina.jpg);
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 70px;
@@ -86,19 +79,17 @@
 
 .calesita {
     width: 80%;
-    margin-left: 10%;
+    margin: auto;
 }
 
 #flechaAnterior {
-    background-color: #10eff7;
     opacity: 1;
-    margin-left: -120px;
+    margin-left: -150px;
 }
 
 #flechaSiguiente {
-    background-color: #10eff7;
     opacity: 1;
-    margin-right: -120px;
+    margin-right: -150px;
 }
 
 .iconoFlecha {
@@ -108,7 +99,7 @@
 
 .barraFooter {
     flex-grow: 0;
-    margin-right: 60px;
+    margin-right: 10px;
     position: static;
 }
 
@@ -118,4 +109,22 @@
 
 .botonesBarraFooter {
     padding: 15px;
+    transition: all .5s;
+}
+
+.card {
+    transition: all .5s;
+    /*para que la animacion se haga en medio segundo*/
+}
+
+.card:hover {
+    transition: all .5s;
+    transform: scale(1.05) !important;
+    cursor: pointer;
+}
+
+.listaNav {
+    display: flex;
+    list-style: none;
+    margin: 0;
 }

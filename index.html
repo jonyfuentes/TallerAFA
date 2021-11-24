@@ -13,111 +13,158 @@
     <title>Soy Afa</title>
 
     <!--<style>
-    img {
-       width: 100%;
-     }
-    body {
-      background: url(imagenes/fondo_prueba.jpg); 
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0;
-      height: 100vh;
-    }
-  </style>-->
+        img {
+           width: 100%;
+         }
+        body {
+          background: url(imagenes/fondo_prueba.jpg); 
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin: 0;
+          height: 100vh;
+        }
+      </style>-->
 
-</head>s
 
-<body tyle="background-color: black;">
+</head>
+
+<body class="bg-dark">
     <header id="Encabezado">
-        <nav class="navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
-            <div class="container-fluid">
-                <img src="logo/logo-afa.png" id="estrellaLogo">
-                <img src="imagen/asociacion.jpg" id="nombreLogo" class="gap-6">
+        <nav class=" navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
+            <div class="container container-fluid">
+
+                <a href="./index.html"><img src="logo/logo-afa.png" id="nombreLogo" class="gap-6"></a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="botonesBarraNavegacion active" aria-current="page" href="nosotros.html">Nosotros</a>
-                        <a class="botonesBarraNavegacion ultimoBoton" href="formulario.html">Contacto</a>
-                        <li class="nav-item dropdown">
-                            <a class="botonesBarraNavegacion dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Producto
-                    </a>
-                            <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
-                                <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
-                                <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
-                            </ul>
-                        </li>
+                        <ul class="listaNav">
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="formulario.html">Contacto</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="botonesBarraNavegacion dropdown-toggle btn bg-primary mx-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Producto
+                        </a>
+                                <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
+                                </ul>
+                            </li>
+
+                            <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="register.html">Acceder</a>
+                        </ul>
+
 
                     </div>
                 </div>
             </div>
         </nav>
         </div>
-        <br>
-        </br>
-        <br>
-        </br>
-
-
-
-
-        </div>
     </header>
 
-    <main>
-        <div class="seccionDestacados">
-            <h3 style="color:#050505; text-align:center;">LOS PRODUCTOS MAS VENDIDOS</h3>
+
+
+
+
+
+    </header>
+
+    <main id="mainDestacados">
+
+        <div class="seccionDestacados container">
+
+            <h3 class="text-center mb-4"><span class="p-1 bg-light rounded">LOS PRODUCTOS MAS VENDIDOS</span></h3>
+
+
             <div id="carouselExampleControls" class="carousel slide calesita" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-4">
-                                <img src="imagen/cami1.jfif" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/cami1.jfif" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <img src="imagen/cami2.jpg" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/cami2.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <img src="imagen/camiaA.jpg" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/camiaA.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-4">
-                                <img src="imagen/muculosa1.jpg" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/muculosa1.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <img src="imagen/mujer1.jpg" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/mujer1.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <img src="imagen/mujer2.jpg" class="d-block w-100">
-                                <button type="button" class="btn btn-outline-light">Comprar</button>
+
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center border-secondary bg-dark rounded">
+                                    <img src="./imagen/mujer2.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <button type="button" class="btn btn-outline-light tex">Comprar</button>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
                 <button id="flechaAnterior" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon iconoFlecha" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
+                  <span class="carousel-control-prev-icon iconoFlecha" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
                 <button id="flechaSiguiente" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon iconoFlecha" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+                  <span class="carousel-control-next-icon iconoFlecha" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </main>
     <!--navegacion face .. -->
-    <div id="footer">
+    <footer id="footer">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand textoBarraFooter">Seguinos en redes sociales:</a>
@@ -149,7 +196,7 @@
                 </div>
             </div>
         </nav>
-    </div> -->
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

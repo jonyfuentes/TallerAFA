@@ -1,8 +1,14 @@
 * {
-    left: 3%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    /* background: url(imagen/fondo-afa.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .navbar-dark .navbar-toggler {
@@ -13,7 +19,6 @@
     width: 400px;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
     border-radius: 4px;
     font-family: "calibri";
     color: white;
@@ -36,24 +41,41 @@
     font-size: 18px;
 }
 
+.registro .datos-usuario {
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.registro .datos-usuario:hover {
+    outline: 2px solid #1f53c5;
+}
+
 .registro .boton-enviar {
     width: 100%;
     background-color: #1f53c5;
     border: none;
+    border-radius: 1rem;
     color: white;
     padding: 12px;
     margin: 16px 0;
     font-size: 16px;
     cursor: pointer;
+    transition: all .5s;
+}
+
+.registro .boton-enviar:hover {
+    transition: all .5s;
+    color: #1f53c5;
+    background-color: #fff;
 }
 
 #Encabezado {
     size: 100% 100%;
-    background-image: url(../imagen/fondo-afa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: static;
-    height: 65rem;
+    /* height: 65rem; */
     background-position: center center;
 }
 
@@ -69,14 +91,6 @@
     margin-left: 5%;
     position: absolute;
     z-index: 2;
-}
-
-.barraNavegacion {
-    position: relative;
-    background-color: black;
-    border: darkgray solid 2px;
-    border-radius: 5px;
-    top: 7%;
 }
 
 .botonesBarraNavegacion {

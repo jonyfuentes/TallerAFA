@@ -1,92 +1,101 @@
-            #Encabezado {
-                size: 50%;
-                background-image: url(../logo/logo-2.gif);
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: static;
-                height: 65rem;
-                background-position: center center;
-            }
-            
-            #nombreLogo {
-                width: 5%;
-                margin-left: 13%;
-                position: static;
-                z-index: 2;
-            }
-            
-            #estrellaLogo {
-                width: 5%;
-                margin-left: 5%;
-                position: absolute;
-                z-index: 2;
-            }
-            
-            .barraNavegacion {
-                position: relative;
-                background-color: rgb(236, 11, 11);
-                border: darkgray solid 2px;
-                border-radius: 5px;
-                top: 7%;
-            }
-            
-            .botonesBarraNavegacion {
-                display: block;
-                float: right;
-                padding: .5rem 1rem;
-                color: rgb(18, 247, 68);
-                text-decoration: none;
-                border-right: darkgray solid 1px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-            
-            .botonesBarraNavegacion:hover {
-                background-color: #F07800;
-                color: darkgray;
-            }
-            
-            .ultimoBoton {
-                border-right: none;
-            }
-            
-            .colorFondoDropdownBoton {
-                background-color: black;
-            }
-            
-            .colorLetraLinksDropdown {
-                color: #080707;
-            }
-            
-            .offcanvas-body {
-                background-color: #212529;
-            }
-            
-            .offcanvas-end {
-                width: 250px;
-            }
-            
-            .Titulo {
-                color: rgb(177, 212, 18);
-                padding: 10px;
-                font-family: Arial, Helvetica, sans-serif;
-                font: bold;
-            }
-            
-            .col-xl-4,
-            .col-lg-12 {
-                padding: 10px;
-            }
-            
-            .card {
-                padding: 15px;
-                width: 85%;
-                background-color: black;
-                border: blanchedalmond 1px solid;
-                border-radius: 2px;
-            }
-            
-            .card-img-top {
-                width: 100%;
-                height: 40vh;
-                object-fit: cover;
-            }
+#Encabezado {
+    size: 50%;
+    background-image: url(../imagen/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    height: 65rem;
+    background-position: center center;
+}
+
+#nombreLogo {
+    width: 5%;
+    margin-left: 13%;
+    position: static;
+    z-index: 2;
+}
+
+#estrellaLogo {
+    width: 5%;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.barraNavegacion {
+    position: relative;
+    background-color: rgb(236, 11, 11);
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    top: 7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float: right;
+    padding: .5rem 1rem;
+    color: rgb(18, 247, 68);
+    text-decoration: none;
+    border-right: darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right: none;
+}
+
+.colorFondoDropdownBoton {
+    background-color: black;
+}
+
+.colorLetraLinksDropdown {
+    color: #080707;
+}
+
+.offcanvas-body {
+    background-color: #212529;
+}
+
+.offcanvas-end {
+    width: 250px;
+}
+
+.Titulo {
+    color: rgb(177, 212, 18);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.col-xl-4,
+.col-lg-12 {
+    padding: 10px;
+}
+
+.card {
+    padding: 15px;
+    width: 85%;
+    background-color: black;
+    border: blanchedalmond 1px solid;
+    border-radius: 2px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.caja:hover {
+    transition: all .5s;
+    transform: scale(1.1) !important;
+}

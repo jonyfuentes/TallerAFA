@@ -1,3 +1,4 @@
+s
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,79 +6,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soy AFa</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/indumentaria.css">
-    <link rel="shortcut icon" href="imagen/asociacion.jpg">
-    <style>
-        img {
-            width: 100%;
-        }
-        
-        body {
-            background: url(imagen/Bandera-argentina.jpg);
-            background-color: black;
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0;
-            height: 170vh;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/styleIndumentaria.css">
+    <link rel="shortcut icon" href="imagen/Bandera-argentina.jpg">
+    <title>Soy Afa</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <div class="row">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo/logo-afa.png" id="estrellaLogo" class="d-none d-lg-block">
-                    <img src="imagen/asociacion.jpg" id="nombreLogo">
-                </a>
-            </div>
+<body class="bg-dark">
+    <header id="Encabezado">
+        <nav class=" navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
+            <div class="container container-fluid">
+                <!--agregue la clase "container" para que quede alineado-->
+                <a href="./index.html"><img src="logo/logo-afa.png" id="nombreLogo" class="gap-6"></a>
+                <!-- <img src="imagen/asociacion.jpg" id="nombreLogo" class="gap-6">  Trata de usar un solo logo y que sea con fondo transparente-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <ul class="listaNav">
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="formulario.html">Contacto</a>
+                            </li>
 
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">  
-            <span class="navbar-toggler-icon"></span>
-            </button> -->
+                            <li class="nav-item dropdown">
+                                <a class="botonesBarraNavegacion dropdown-toggle btn bg-primary mx-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Producto
+                        </a>
+                                <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
+                                </ul>
+                            </li>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
-                        </li>
+                            <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="register.html">Acceder</a>
+                        </ul>
 
-                        <li class="nav-item dropdown">
 
-                            <a class="nav-link dropdown-toggle" href="Equipo.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                
-                                Producto
-                            </a>
-                            <!--  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="Equipo.html">En línea</a></li>
-                                <li><a class="dropdown-item" href="Vivo.html">En vivo</a></li>
-                                <li><a class="dropdown-item" href="indumentaria.html">En Indumentaria</a></li>
-                            </ul>-->
-                        </li>
-
-                    </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div style="margin-top: 70px;">
-        <div class="container-fluid">
-            <div class="container-fluid" style="background-color: black;">
-                <header>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <div class="container container-fluid mt-4">
+                <div class="container-fluid">
                     <div class="container">
-                        <h1 class="Titulo" style="background-color: black">Producto</h1>
+                        <h1 class="Titulo text-center m-0 bg-dark"><span class="text-light ">Producto</span></h1>
                     </div>
-                    <div class="container" style="background-color: black;">
-                        <ul class="nav nav-tabs pestañas">
-                            <li class="nav-item">
+                    <div class="container">
+                        <ul class="nav nav-tabs pestañas bg-dark ">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="Equipo.html">Equipo</a>
                             </li>
                             <li class="nav-item">
@@ -88,73 +77,106 @@
                             </li>
                         </ul>
                     </div>
-            </div>
-            </header>
-        </div>
-    </div>
 
-    <div class="container">
-        <div id="primeraFila" class="row">
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/conjuntoAzul.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Conjunto Azul</h5>
-                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/conjuntoBlanco.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Conjunto Blanco</h5>
-                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/conjuntoNegro.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">conjunto Negro</h5>
-                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                    <div class="container mt-4">
+                        <div id="primeraFila" class="row">
+                            <div class="col-xl-4 col-lg-12 caja">
+                                <div class="card text-white mb-3 text-center bg-dark border border-light  rounded">
+                                    <img src="mercaderia/conjuntoAzul.jpg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjunto Azul</h5>
+                                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center bg-dark border border-light rounded">
+                                    <img src="mercaderia/conjuntoBlanco.jpg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjunto Blanco</h5>
+                                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center bg-dark rounded border border-light">
+                                    <img src="mercaderia/conjuntoNegro.jpg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">conjunto Negro</h5>
+                                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="segundaFila" class="row">
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center bg-dark rounded border border-light">
+                                    <img src="mercaderia/conjutoCeleste.jpeg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjunto Celeste 1</h5>
+                                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center bg-dark rounded border border-light">
+                                    <img src="mercaderia/shortazul.jpg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">short azul</h5>
+                                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card text-white mb-3 text-center bg-dark rounded border border-light">
+                                    <img src="mercaderia/shortBlancojpg.jpg" class="card-img-top rounded">
+                                    <div class="card-body">
+                                        <h5 class="card-title">short Blanco</h5>
+                                        <a href="#" class="btn btn-secondary">Ver Articulo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="segundaFila" class="row">
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/conjutoCeleste.jpeg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Conjunto Celeste 1</h5>
-                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/shortazul.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">short azul</h5>
-                        <a href="descripcion.html" class="btn btn-secondary">Ver Articulo</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-12">
-                <div class="card text-white mb-3 text-center">
-                    <img src="mercaderia/shortBlancojpg.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">short Blanco/h5>
-                            <a href="#" class="btn btn-secondary">Ver Articulo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </main>
-    </div>
+    <footer id="footer">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand textoBarraFooter">Seguinos en redes sociales:</a>
+                <div class="collapse navbar-collapse barraFooter" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.facebook.com/AFASeleccionArgentina" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-facebook fa-1x"></i>
+                    </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.youtube.com/user/AFASeleccion" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-youtube fa-1x"></i>
+                    </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.instagram.com/afaseleccion/" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-instagram fa-1x"></i>
+                    </button>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 

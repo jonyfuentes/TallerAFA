@@ -5,175 +5,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soy afa Equipo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styleVivo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagen/Bandera-argentina.jpg">
+    <link rel="stylesheet" href="css/styleVivo.css">
+    <style>
+        .card {
+            height: 24rem !important;
+        }
+        
+        .card img {
+            height: 80%;
+        }
+    </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <a class="navbar-brand" href="index.html">
-                    <img src="" id="estrellaLogo" class="d-none d-lg-block">
-                    <img src="" id="nombreLogo">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="Equipo.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Producto
-              </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="Equipo.html"> Equipo</a></li>
-                                <li><a class="dropdown-item" href="Vivo.html">En vivo</a></li>
-                                <li><a class="dropdown-item" href="indumentaria.html">En Indumentaria</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
-                        </li>
-                    </ul>
+<body class="bg-dark">
+    <header id="Encabezado">
+        <nav class=" navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
+            <div class="container container-fluid">
+
+                <a href="./index.html"><img src="logo/logo-afa.png" id="nombreLogo" class="gap-6"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <ul class="listaNav">
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="formulario.html">Contacto</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="botonesBarraNavegacion dropdown-toggle btn bg-primary mx-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Producto
+                        </a>
+                                <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
+                                </ul>
+                            </li>
+
+                            <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="register.html">Acceder</a>
+                        </ul>
+
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div style="margin-top: 40px;">
-        <div class="container-fluid colorFondoNegro">
-            <header>
-                <div class="container">
-                    <h1 class="Titulo colorFondoNegro"> Calendario partidos en venta</h1>
-                </div>
-                <div class="container colorFondoNegro">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link" href="Equipo.html">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="Vivo.html">En vivo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="indumentaria.html">En Indumentaria</a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-        </div>
-        <main>
+        </nav>
+    </header>
+
+
+    <main class="bg-dark">
+        <div class="container mt-4 bg-dark">
             <div class="container">
-                <div id="primeraFila" class="row">
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvsperu.jpeg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> - Peru VS Argentina - - OCT 12 -Lima-Peru
-                                </h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
+                <h1 class="Titulo text-center m-0 bg-dark"><span class="text-light ">Mirá los partidos en vivo</span></h1>
+            </div>
+            <div class="container">
+                <ul class="nav nav-tabs pestañas bg-dark ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Vivo.html">En vivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indumentaria.html">En Indumentaria</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="primeraFila" class="row">
+                <div class="col-xl-4 col-lg-12 ">
+                    <div class="card text-white mb-4 text-center bg-dark border-light">
+                        <img src="partidos/argvsperu.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> - Peru VS Argentina - - OCT 12 -Lima-Peru
+                            </h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvsuru.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> Argentina VS Uruguay Sept 4- - BsAs, Arg</h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvschile.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> Chile VS Argentina , Nov 17 Santiago, Chile -</h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="segundaFila" class="row">
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvsbol.png" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> - Argentina VS Bolivia - DiC 8 - BsAS, Arg</h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
+                <div class="col-xl-4 col-lg-12">
+                    <div class="card text-white mb-3 text-center bg-dark border-light">
+                        <img src="partidos/argvsuru.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Argentina VS Uruguay Sept 4- - BsAs, Arg</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvspara.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> Paraguay VS Argentina Ene 21 - Asucion, Parg</h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12">
+                    <div class="card text-white mb-3 text-center bg-dark border-light">
+                        <img src="partidos/argvschile.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Chile VS Argentina , Nov 17 Santiago, Chile -</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12">
-                        <div class="card text-white mb-3 text-center">
-                            <img src="partidos/argvsbra.jpg" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title"> - Argentina Vs Brasil - - Feb 08 - - BsAs, Arg</h5>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
-                                    </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
+            <div id="segundaFila" class="row">
+                <div class="col-xl-4 col-lg-12">
+                    <div class="card text-white mb-3 text-center bg-dark border-light">
+                        <img src="partidos/argvsbol.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> - Argentina VS Bolivia - DiC 8 - BsAS, Arg</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12">
+                    <div class="card text-white mb-3 text-center bg-dark border-light">
+                        <img src="partidos/argvspara.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Paraguay VS Argentina Ene 21 - Asucion, Parg</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-12">
+                    <div class="card text-white mb-3 text-center bg-dark border-light">
+                        <img src="partidos/argvsbra.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> - Argentina Vs Brasil - - Feb 08 - - BsAs, Arg</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalTickets">Tickets</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModalComentario">Comentario</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="exampleModalComentario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -260,7 +273,42 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand textoBarraFooter">Seguinos en redes sociales:</a>
+                <div class="collapse navbar-collapse barraFooter" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.facebook.com/AFASeleccionArgentina" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-facebook fa-1x"></i>
+                    </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.youtube.com/user/AFASeleccion" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-youtube fa-1x"></i>
+                    </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.instagram.com/afaseleccion/" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-instagram fa-1x"></i>
+                    </button>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 

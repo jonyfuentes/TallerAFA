@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soy Afa</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -15,111 +14,151 @@
 
 </head>
 
-<body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <a class="navbar-brand" href="index.html">
-                    <img src="logo/logo-afa.png" id="estrellaLogo" class="d-none d-lg-block">
-                    <img src="" id="nombreLogo">
-                </a>
+<body class="bg-dark">
+    <header id="Encabezado">
+        <nav class=" navbar navbar-collapse navbar-expand-xl navbar-light me-auto barraNavegacion">
+            <div class="container container-fluid">
+
+                <a href="./index.html"><img src="logo/logo-afa.png" id="nombreLogo" class="gap-6"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <ul class="listaNav">
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="formulario.html">Contacto</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="botonesBarraNavegacion dropdown-toggle btn bg-primary mx-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Producto
+                        </a>
+                                <ul class="dropdown-menu colorFondoDropdownBoton" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Equipo.html">Equipo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="Vivo.html">En vivo</a></li>
+                                    <li><a class="dropdown-item colorLetraLinksDropdown" href="indumentaria.html">En Indumentaria</a></li>
+                                </ul>
+                            </li>
+
+                            <a class="botonesBarraNavegacion btn bg-primary mx-4 ultimoBoton" href="register.html">Acceder</a>
+                        </ul>
+
+
+                    </div>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        </nav>
+    </header>
+    <main class="mt-5">
+
+        <div class="container mt-4 bg-dark">
+            <div class="container">
+                <h1 class="Titulo text-center m-0 bg-dark"><span class="text-light ">Seleccionado de equipo de futbol</span></h1>
+            </div>
+            <div class="container">
+                <ul class="nav nav-tabs pestañas bg-dark ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="Equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="Vivo.html">En vivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indumentaria.html">En Indumentaria</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container containerCarrusel">
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <img src="./equipo/formacion1.jpg" alt="..." class="rounded imagenCarrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Formacion argentina</h2>
+                                <h4>Argentina vs Brasil</h4>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+
+                            <img src="./equipo/formacion2.jpg" alt="..." class="rounded imagenCarrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2><span class="bg-light text-dark rounded">Formacion Argentina</span></h2>
+                                <h4>Argentina vs Uruguay</h4>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+
+
+                            <img src="./equipo/formacion3.jpg" alt="..." class="rounded imagenCarrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Formacion Argentina</h2>
+                                <h4>Argentina vs Chile</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn btn-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+    </main>
+    <footer id="footer">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand textoBarraFooter">Seguinos en redes sociales:</a>
+                <div class="collapse navbar-collapse barraFooter" id="navbarCollapse">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="Equipo.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Producto
-                 </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="Equipo.html">Equipo</a></li>
-                                <li><a class="dropdown-item" href="Vivo.html">En vivo</a></li>
-                                <li><a class="dropdown-item" href="indumentaria.html">En Indumentaria</a></li>
-                            </ul>
+                            <a class="botonesBarraFooter" href="https://www.facebook.com/AFASeleccionArgentina" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-facebook fa-1x"></i>
+                    </button>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="formulario.html">Contacto</a>
+                            <a class="botonesBarraFooter" href="https://www.youtube.com/user/AFASeleccion" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-youtube fa-1x"></i>
+                    </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="botonesBarraFooter" href="https://www.instagram.com/afaseleccion/" target="_blank">
+                                <button type="button" class="btn btn-outline-light rounded-circle">
+                      <i class="fab fa-instagram fa-1x"></i>
+                    </button>
+
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div style="margin-top: 40px;">
-        <div class="container-fluid colorFondoNegro">
-            <header>
-                <div class="container">
-                    <h1 class="Titulo colorFondoNegro">seleccionado de equipo de futbol</h1>
-                </div>
-                <div class="container colorFondoNegro">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="Equipo.html">Equipo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Vivo.html">En vivo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="indumentaria.html">En Indumentaria</a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-        </div>
-        <!------>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="equipo/formacion2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Formacion Argentina</h5>
-                        <p>Argentina VS Urguay.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="equipo/formacion1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Formacion Argentina</h5>
-                        <p>Argentina VS Brasil.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="equipo/formacion3.jpg" d-block w-100 " alt="... ">
-                    <div class="carousel-caption d-none d-md-block ">
-                        <h5>Formacion Argentina</h5>
-                        <p>Argentina VS Chile.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="prev ">
-            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
-            <span class="visually-hidden ">Previous</span>
-          </button>
-            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="next ">
-            <span class="carousel-control-next-icon " aria-hidden="true "></span>
-            <span class="visually-hidden ">Next</span>
-          </button>
-        </div>
+        </nav>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 
-
-
-
-         <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous "></script>
 </body>
 
 </html>
