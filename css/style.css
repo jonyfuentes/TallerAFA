@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1500px) {
+    #Encabezado {
+        height: 65rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #Encabezado {
+        height: 100rem;
+    }
+}
+
+#Encabezado {
+    size: 100% 100%;
+    background-image: url(../imagen/fondo-afa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    /*height: 65rem;*/
+    background-position: center center;
+}
+
+#nombreLogo {
+    width: 15%;
+    margin-left: 10%;
+    position: static;
+    z-index: 2;
+}
+
+#estrellaLogo {
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.barraNavegacion {
+    background-image: url(../imagen/3lineas_azul.png);
+    position: relative;
+    background-color: white;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    top: 7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float: right;
+    padding: .5rem 1rem;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    border-right: darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right: none;
+}
+
+.colorFondoDropdownBoton {
+    background-color: black;
+}
+
+.colorLetraLinksDropdown {
+    color: #f2f2f2;
+}
+
+.contenedorDestacados {
+    position: static;
+    top: 400px;
+}
+
+.seccionDestacados {
+    background-image: url(../imagen/Bandera-argentina.jpg);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: static;
+    top: 300px;
+}
+
+.calesita {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#flechaAnterior {
+    background-color: #10eff7;
+    opacity: 1;
+    margin-left: -120px;
+}
+
+#flechaSiguiente {
+    background-color: #10eff7;
+    opacity: 1;
+    margin-right: -120px;
+}
+
+.iconoFlecha {
+    height: 90px;
+    width: 80px;
+}
+
+.barraFooter {
+    flex-grow: 0;
+    margin-right: 60px;
+    position: static;
+}
+
+.textoBarraFooter {
+    margin-left: 380px;
+}
+
+.botonesBarraFooter {
+    padding: 15px;
+}

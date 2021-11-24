@@ -1,0 +1,158 @@
+img {
+    width: 100%;
+}
+
+body {
+    background: url(../imagen/fondo-afa.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 170vh;
+    background-position: center;
+}
+
+.colorFondoNegro {
+    background-color: black;
+}
+
+#nombreLogo {
+    margin-left: 50%;
+    position: static;
+    z-index: 2;
+}
+
+#estrellaLogo {
+    width: 4%;
+    position: absolute;
+    z-index: 1;
+    top: -1%;
+}
+
+.barraNavegacion {
+    position: relative;
+    background-color: black;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    top: 7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float: right;
+    padding: .5rem 1rem;
+    color: darkgray;
+    text-decoration: none;
+    border-right: darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right: none;
+}
+
+.colorFondoDropdownBoton {
+    background-color: black;
+}
+
+.colorLetraLinksDropdown {
+    color: #f2f2f2;
+}
+
+.offcanvas-body {
+    background-color: #212529;
+}
+
+.offcanvas-end {
+    width: 250px;
+}
+
+.Titulo {
+    color: darkgray;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.card {
+    background-color: black;
+}
+
+.imagenCD {
+    width: 80%;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+.accordion-body {
+    background-color: #141619;
+}
+
+.accordion-button {
+    background-color: #141619;
+    color: blanchedalmond;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: #141619;
+    border: blanchedalmond 1px solid;
+    color: blanchedalmond;
+}

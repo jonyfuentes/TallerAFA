@@ -1,0 +1,102 @@
+img {
+    width: 100%;
+}
+
+body {
+    background: url(../imagen/fondo-afa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 140vh;
+}
+
+
+/*#nombreLogo {
+    margin-left: 50%;
+    position: static;
+    z-index: 2;
+}
+
+#estrellaLogo {
+    width: 4%;
+    position: absolute;
+    z-index: 1;
+    top: -1%;
+} 
+*/
+
+.arraNavegacion {
+    position: relative;
+    background-color: black;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    top: 7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float: right;
+    padding: .5rem 1rem;
+    color: darkgray;
+    text-decoration: none;
+    border-right: darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right: none;
+}
+
+.colorFondoDropdownBoton {
+    background-color: black;
+}
+
+.colorLetraLinksDropdown {
+    color: #f2f2f2;
+}
+
+.offcanvas-body {
+    background-color: #212529;
+}
+
+.offcanvas-end {
+    width: 250px;
+}
+
+.carousel {
+    width: 30%;
+    margin-left: 400px;
+}
+
+.Titulo {
+    color: darkgray;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+
+.fondo {
+    background: url(../imagen/fondo-afa.jpg);
+    height: 140vh;
+    margin-top: 50px;
+}
+
+.presentacion {
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: black;
+    text-align: center;
+}
+
+.textoPresentacion {
+    padding-top: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
+}

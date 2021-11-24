@@ -1,0 +1,122 @@
+* {
+    left: 3%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-toggler {
+    right: 70% !important;
+}
+
+.registro {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+}
+
+.registro h4 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.datos-usuario {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+.registro .boton-enviar {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#Encabezado {
+    size: 100% 100%;
+    background-image: url(../imagen/fondo-afa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    height: 65rem;
+    background-position: center center;
+}
+
+#nombreLogo {
+    width: 5%;
+    margin-left: 13%;
+    position: static;
+    z-index: 2;
+}
+
+#estrellaLogo {
+    width: 5%;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.barraNavegacion {
+    position: relative;
+    background-color: black;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    top: 7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float: right;
+    padding: .5rem 1rem;
+    color: darkgray;
+    text-decoration: none;
+    border-right: darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right: none;
+}
+
+.colorFondoDropdownBoton {
+    background-color: black;
+}
+
+.colorLetraLinksDropdown {
+    color: #9c0a0a;
+}
+
+.offcanvas-body {
+    background-color: #212529;
+}
+
+.offcanvas-end {
+    width: 250px;
+}
+
+.Titulo {
+    color: rgb(197, 152, 152);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
