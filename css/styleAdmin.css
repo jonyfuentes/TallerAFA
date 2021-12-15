@@ -1,0 +1,71 @@
+#Encabezado{
+    size: 100% 100%;
+    background-image: url(../imagenes/fondo_prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    height: 65rem;
+    background-position: center center;
+}
+
+#nombreLogo { 
+   margin-left: 50%;
+   position:static;
+   z-index: 2;
+}
+
+#estrellaLogo {
+    width: 4%;
+    position: absolute;
+    z-index: 1;
+    top: -1%;
+}
+
+.barraNavegacion {
+    position: relative;
+    background-color: black;
+    border:darkgray solid 2px;
+    border-radius: 5px;
+    top:7%;
+}
+
+.botonesBarraNavegacion {
+    display: block;
+    float:right;
+    padding: .5rem 1rem;
+    color: darkgray;
+    text-decoration: none;
+    border-right:darkgray solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botonesBarraNavegacion:hover {
+    background-color: #F07800;
+    color: darkgray;
+}
+
+.ultimoBoton {
+    border-right:none;
+}
+
+.colorFondoDropdownBoton {
+    background-color:black;
+}
+
+.colorLetraLinksDropdown {
+    color: #f2f2f2;
+}
+
+.offcanvas-body {
+    background-color: #212529;
+}
+
+.offcanvas-end {
+    width:250px;
+}
+
+#Contenedor {
+    border: black 1px solid; 
+    border-radius: 2px; 
+    margin-top:100px;
+}

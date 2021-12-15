@@ -1,0 +1,28 @@
+{
+    "Users":[
+        {
+            "id": 1,
+            "user": "Juan Perez",
+            "temp": "Juanperes@fuentes",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        {
+            "id": 2,
+            "user": "Gabriel Ferro",
+            "temp": "gaby@fuentes",
+            "password": "d79ba61d64d7f391588baa44e59713fa2c8e4ab18ba50d210c240148b74fdf57"
+        },
+        {
+            "id": 3,
+            "user": "Nicole Olivia",
+            "temp": "nicole@fuentes",
+            "password": "d79ba61d64d7f391588baa44e59713fa2c8e4ab18ba50d210c240148b74fdf57"
+        },
+        {
+            "id": 4,
+            "user": "Agustina",
+            "temp": "agustina@fuentes",
+            "password": "1baedd25059490937a8f7a52dbaf5a7c168bc49f5bac0d7bc48bd6b58a84a421"
+        }
+    ] 
+}
