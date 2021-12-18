@@ -1,28 +1,27 @@
 {
-    "Users":[
-        {
+    "Users": [{
             "id": 1,
-            "user": "Juan Perez",
+            "user": "juanperes",
             "temp": "Juanperes@fuentes",
             "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
         },
         {
             "id": 2,
-            "user": "Gabriel Ferro",
+            "user": "gabrielferro",
             "temp": "gaby@fuentes",
-            "password": "d79ba61d64d7f391588baa44e59713fa2c8e4ab18ba50d210c240148b74fdf57"
+            "password": "1baedd25059490937a8f7a52dbaf5a7c168bc49f5bac0d7bc48bd6b58a84a421"
         },
         {
             "id": 3,
-            "user": "Nicole Olivia",
+            "user": "nicoleolivia",
             "temp": "nicole@fuentes",
-            "password": "d79ba61d64d7f391588baa44e59713fa2c8e4ab18ba50d210c240148b74fdf57"
+            "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae"
         },
         {
             "id": 4,
-            "user": "Agustina",
+            "user": "agustina",
             "temp": "agustina@fuentes",
-            "password": "1baedd25059490937a8f7a52dbaf5a7c168bc49f5bac0d7bc48bd6b58a84a421"
+            "password": "4e80ed1c1181b8a043e1a6230c60cf0ffeddeb62a0eafb621086fcf581be4c7c"
         }
-    ] 
+    ]
 }

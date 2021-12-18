@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    background-color: black;
+    background-image: url(../imagen/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -38,7 +38,7 @@ body {
 .botonesBarraNavegacion {
     display: block;
     float: right;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: darkgray;
     text-decoration: none;
     border-right: darkgray solid 1px;
@@ -46,7 +46,7 @@ body {
 }
 
 .botonesBarraNavegacion:hover {
-    background-color: #F07800;
+    background-color: #f07800;
     color: darkgray;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .rate:not(:checked)>label:before {
-    content: '★ ';
+    content: "★ ";
 }
 
 .rate>input:checked~label {
@@ -177,7 +177,7 @@ body {
 
 .barraNavegacion {
     height: 30vh;
-    background: repeating-linear-gradient(0deg, lightblue 0%, lightblue 40%, white 0, white 60%, lightblue 0, lightblue);
+    background: repeating-linear-gradient( 0deg, lightblue 0%, lightblue 40%, white 0, white 60%, lightblue 0, lightblue);
     position: relative;
     background-color: white;
     border: darkgray solid 2px;
@@ -188,7 +188,7 @@ body {
 .botonesBarraNavegacion {
     display: block;
     float: right;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: rgb(10, 9, 9);
     text-decoration: none;
     border-right: darkgray solid 1px;

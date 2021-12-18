@@ -4,9 +4,7 @@ xampp
 http://localhost/TallerAFA1/TallerAFA/index.html
  
 administrador 
-http://127.0.0.7:5500/TallerAFA/admin/login.html
-
-
+http://127.0.0.7:5501/admin/login.html
 
 
 nombre :gabrielferro
@@ -24,6 +22,6 @@ correo:Agustina@fuentes
 contra:agus12
 
 
-nombre :nicoleoliva
+nombre :nicoleolivia
 correo:juanperes@fuentes 
 contra :test123

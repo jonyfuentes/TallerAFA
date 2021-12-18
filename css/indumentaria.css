@@ -1,18 +1,18 @@
+body {
+    background-image: url(../imagen/background.jpg);
+}
+
 #Encabezado {
     size: 50%;
     background-image: url(../imagen/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: static;
-    height: 65rem;
+    position: relative;
+    top: 0;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
     background-position: center center;
-}
-
-#nombreLogo {
-    width: 5%;
-    margin-left: 13%;
-    position: static;
-    z-index: 2;
 }
 
 #estrellaLogo {
@@ -27,13 +27,12 @@
     background-color: rgb(236, 11, 11);
     border: darkgray solid 2px;
     border-radius: 5px;
-    top: 7%;
 }
 
 .botonesBarraNavegacion {
     display: block;
     float: right;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: rgb(18, 247, 68);
     text-decoration: none;
     border-right: darkgray solid 1px;
@@ -41,7 +40,7 @@
 }
 
 .botonesBarraNavegacion:hover {
-    background-color: #F07800;
+    background-color: #f07800;
     color: darkgray;
 }
 
@@ -51,10 +50,6 @@
 
 .colorFondoDropdownBoton {
     background-color: black;
-}
-
-.colorLetraLinksDropdown {
-    color: #080707;
 }
 
 .offcanvas-body {
@@ -96,6 +91,6 @@
 }
 
 .caja:hover {
-    transition: all .5s;
+    transition: all 0.5s;
     transform: scale(1.1) !important;
 }

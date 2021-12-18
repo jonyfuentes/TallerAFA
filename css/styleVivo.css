@@ -1,3 +1,7 @@
+body {
+    background-image: url(../imagen/background.jpg);
+}
+
 .offcanvas-body {
     background-color: #212529;
 }
@@ -58,7 +62,7 @@
 }
 
 .rate:not(:checked)>label:before {
-    content: '★ ';
+    content: "★ ";
 }
 
 .rate>input:checked~label {

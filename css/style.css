@@ -1,3 +1,7 @@
+body {
+    background-image: url(../imagen/background.jpg);
+}
+
 #Encabezado {
     size: 100% 100%;
     /* background-image: url(../imagen/fondo-afa.jpg); */
@@ -23,7 +27,7 @@
 
 .barraNavegacion {
     height: 30vh;
-    background: repeating-linear-gradient(0deg, lightblue 0%, lightblue 40%, white 0, white 60%, lightblue 0, lightblue);
+    background: repeating-linear-gradient( 0deg, lightblue 0%, lightblue 40%, white 0, white 60%, lightblue 0, lightblue);
     position: relative;
     background-color: white;
     border: darkgray solid 2px;
@@ -34,19 +38,19 @@
 .botonesBarraNavegacion {
     display: block;
     float: right;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: rgb(10, 9, 9);
     text-decoration: none;
     border-right: darkgray solid 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .botonesBarraNavegacion:hover {
     background-color: darkblue;
     color: white;
     transform: scale(1.1);
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .ultimoBoton {
@@ -65,8 +69,6 @@
     position: static;
     top: 400px;
 }
-
-#mainDestacados {}
 
 .seccionDestacados {
     padding-left: 15px;
@@ -109,16 +111,16 @@
 
 .botonesBarraFooter {
     padding: 15px;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .card {
-    transition: all .5s;
+    transition: all 0.5s;
     /*para que la animacion se haga en medio segundo*/
 }
 
 .card:hover {
-    transition: all .5s;
+    transition: all 0.5s;
     transform: scale(1.05) !important;
     cursor: pointer;
 }
@@ -127,4 +129,16 @@
     display: flex;
     list-style: none;
     margin: 0;
+}
+
+#thumbnailsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#thumbnailsContainer .img {
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
 }

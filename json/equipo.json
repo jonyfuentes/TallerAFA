@@ -1,0 +1,21 @@
+{
+    "data": [{
+            "id": "form1",
+            "img": "../equipo/formacion1.jpg",
+            "nombre": "Argentina vs Brasil",
+            "descripcion": "Poster de la final"
+        },
+        {
+            "id": "form2",
+            "img": "../equipo/formacion2.jpg",
+            "nombre": "Argentina vs Uruguay",
+            "descripcion": "Poster clasico Rio Platence "
+        },
+        {
+            "id": "form3",
+            "img": "../equipo/formacion3.jpg",
+            "nombre": "Argentina vs Chile",
+            "descripcion": "Poster Aregentina vs Chile"
+        }
+    ]
+}

@@ -1,4 +1,13 @@
-#Encabezado{
+body {
+    background-image: url(../imagen/background.jpg);
+}
+
+#titleLogin {
+    color: #ffffff;
+    margin: 10px;
+}
+
+#Encabezado {
     size: 100% 100%;
     background-image: url(../imagenes/fondo_prueba.jpg);
     background-repeat: no-repeat;
@@ -8,10 +17,10 @@
     background-position: center center;
 }
 
-#nombreLogo { 
-   margin-left: 50%;
-   position:static;
-   z-index: 2;
+#nombreLogo {
+    margin-left: 50%;
+    position: static;
+    z-index: 2;
 }
 
 #estrellaLogo {
@@ -24,32 +33,32 @@
 .barraNavegacion {
     position: relative;
     background-color: black;
-    border:darkgray solid 2px;
+    border: darkgray solid 2px;
     border-radius: 5px;
-    top:7%;
+    top: 7%;
 }
 
 .botonesBarraNavegacion {
     display: block;
-    float:right;
-    padding: .5rem 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
     color: darkgray;
     text-decoration: none;
-    border-right:darkgray solid 1px;
+    border-right: darkgray solid 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botonesBarraNavegacion:hover {
-    background-color: #F07800;
+    background-color: #f07800;
     color: darkgray;
 }
 
 .ultimoBoton {
-    border-right:none;
+    border-right: none;
 }
 
 .colorFondoDropdownBoton {
-    background-color:black;
+    background-color: black;
 }
 
 .colorLetraLinksDropdown {
@@ -61,11 +70,11 @@
 }
 
 .offcanvas-end {
-    width:250px;
+    width: 250px;
 }
 
 #Contenedor {
-    border: black 1px solid; 
-    border-radius: 2px; 
-    margin-top:100px;
+    border: black 1px solid;
+    border-radius: 2px;
+    margin-top: 100px;
 }

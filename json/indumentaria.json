@@ -1,69 +1,68 @@
 {
-    "articulos": [
-        {
+    "data": [{
             "id": "merch01",
             "nombre": "Conjunto Azul",
-            "descripcion": "Remera Tres Round Original, Talle XXL",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/conjuntoAzul.jpg"
         },
         {
             "id": "merch02",
             "nombre": "Conjunto Blanco",
-            "descripcion": "Disco Original Canciones de noche con 10 canciones",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/conjuntoBlanco.jpg"
         },
         {
             "id": "merch03",
             "nombre": "Conjunto Negro",
-            "descripcion": "Pua directamente del guitarrista de la banda",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/conjuntoNegro.jpg"
         },
         {
             "id": "merch04",
             "nombre": "Conjunto Celeste",
-            "descripcion": "Vaso para cerveza de vidrio",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/conjuntoCeleste.jpeg"
         },
         {
             "id": "merch05",
             "nombre": "Short Azul",
-            "descripcion": "Primera taza sacada por la banda con el logo Original de Canciones de Noche",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/shortazul.jpg"
         },
         {
             "id": "merch06",
             "nombre": "Short Blanco",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/shortBlanco.jpg"
         },
         {
             "id": "merch07",
             "nombre": "Media Azul",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/mediaAzul.jpg"
         },
         {
             "id": "merch08",
             "nombre": "Media Celeste",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/mediaCeleste.jpg"
         },
         {
             "id": "merch09",
             "nombre": "Media Blanca",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle XL L M S",
             "img": "mercaderia/mediaBlanca.jpg"
         },
         {
             "id": "merch10",
             "nombre": "Ojotas 1",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle 36-45",
             "img": "mercaderia/ojotas.jpg"
         },
         {
             "id": "merch11",
             "nombre": "Ojotas 2",
-            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "descripcion": "talle 35-42",
             "img": "mercaderia/ojotas2.jpg"
         }
     ]
