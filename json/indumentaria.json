@@ -1,0 +1,70 @@
+{
+    "articulos": [
+        {
+            "id": "merch01",
+            "nombre": "Conjunto Azul",
+            "descripcion": "Remera Tres Round Original, Talle XXL",
+            "img": "mercaderia/conjuntoAzul.jpg"
+        },
+        {
+            "id": "merch02",
+            "nombre": "Conjunto Blanco",
+            "descripcion": "Disco Original Canciones de noche con 10 canciones",
+            "img": "mercaderia/conjuntoBlanco.jpg"
+        },
+        {
+            "id": "merch03",
+            "nombre": "Conjunto Negro",
+            "descripcion": "Pua directamente del guitarrista de la banda",
+            "img": "mercaderia/conjuntoNegro.jpg"
+        },
+        {
+            "id": "merch04",
+            "nombre": "Conjunto Celeste",
+            "descripcion": "Vaso para cerveza de vidrio",
+            "img": "mercaderia/conjuntoCeleste.jpeg"
+        },
+        {
+            "id": "merch05",
+            "nombre": "Short Azul",
+            "descripcion": "Primera taza sacada por la banda con el logo Original de Canciones de Noche",
+            "img": "mercaderia/shortazul.jpg"
+        },
+        {
+            "id": "merch06",
+            "nombre": "Short Blanco",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/shortBlanco.jpg"
+        },
+        {
+            "id": "merch07",
+            "nombre": "Media Azul",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/mediaAzul.jpg"
+        },
+        {
+            "id": "merch08",
+            "nombre": "Media Celeste",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/mediaCeleste.jpg"
+        },
+        {
+            "id": "merch09",
+            "nombre": "Media Blanca",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/mediaBlanca.jpg"
+        },
+        {
+            "id": "merch10",
+            "nombre": "Ojotas 1",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/ojotas.jpg"
+        },
+        {
+            "id": "merch11",
+            "nombre": "Ojotas 2",
+            "descripcion": "Segunda Taza diseñada con el Logo de Estrella",
+            "img": "mercaderia/ojotas2.jpg"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Vivo": [
+        {
+            "id": "vivo1",
+            "nombre": "- Peru VS Argentina - - OCT 12 -Lima-Peru",
+            "img": "../partidos/argvsperu.jpeg"
+        },
+        {
+            "id": "vivo2",
+            "nombre": "Argentina VS Uruguay Sept 4 - BsAs, Arg",
+            "img": "../partidos/argvsuru.jpg"
+        },
+        {
+            "id": "vivo3",
+            "nombre": "Chile VS Argentina, Nov 17 Santiago, Chile -",
+            "img": "../partidos/argvschile.jpg"
+        },
+        {
+            "id": "vivo4",
+            "nombre": "Chile VS Argentina, Nov 17 Santiago, Chile -",
+            "img": "../partidos/argvsbol.png"
+        },
+        {
+            "id": "vivo5",
+            "nombre": "Chile VS Argentina, Nov 17 Santiago, Chile -",
+            "img": "../partidos/argvspara.jpg"
+        },
+        {
+            "id": "vivo6",
+            "nombre": "Chile VS Argentina, Nov 17 Santiago, Chile -",
+            "img": "../partidos/argvsbra.jpg"
+        }
+    ]
+}

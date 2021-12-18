@@ -1,0 +1,39 @@
+{
+    "indexProducts": [{
+            "id": "merch01",
+            "img": "../partidos/argvsbra.jpg",
+            "seccion": "Vivo.html",
+            "destacado": true
+        },
+        {
+            "id": "merch02",
+            "img": "../partidos/argvsuru.jpg",
+            "seccion": "Vivo.html",
+            "destacado": true
+        },
+        {
+            "id": "merch03",
+            "img": "../mercaderia/conjuntoAzul.jpg",
+            "seccion": "indumentaria.html",
+            "destacado": true
+        },
+        {
+            "id": "merch04",
+            "img": "../mercaderia/mediaAzul.jpg",
+            "seccion": "indumentaria.html",
+            "destacado": true
+        },
+        {
+            "id": "merch05",
+            "img": "../equipo/formacion1.jpg",
+            "seccion": "Equipo.html",
+            "destacado": true
+        },
+        {
+            "id": "merch06",
+            "img": "../equipo/formacion3.jpg",
+            "seccion": "Equipo.html",
+            "destacado": true
+        }
+    ]
+}
