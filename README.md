@@ -7,18 +7,23 @@ administrador
 http://127.0.0.7:5500/TallerAFA/admin/login.html
 
 
-nombre :Gabriel Ferro
+
+
+nombre :gabrielferro
 correo:gaby@fuentes 
-contra:Gaby123
+contra:agus123
 
-nombre :juan perez 
+nombre :juanperes 
 correo:juanperes@fuentes 
-contra :niki123
+contra :123
 
-nombre :juan perez 
-correo:juanperes@fuentes 
-contra:123
 
-nombre :Agustinafuentes
+
+nombre :agustina
 correo:Agustina@fuentes 
-contra:Agus123
+contra:agus12
+
+
+nombre :nicoleoliva
+correo:juanperes@fuentes 
+contra :test123
